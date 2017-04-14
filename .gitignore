@@ -1,7 +1,3 @@
-.gradle
-/build/
-!gradle/wrapper/gradle-wrapper.jar
-
 *.java.hsp
 *.sonarj
 *.sw*
@@ -28,10 +24,17 @@ buildSrc/build
 /src/asciidoc/build
 target/
 
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+spring-*/src/main/java/META-INF/MANIFEST.MF
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDEA artifacts and output dirs
 *.iml
 *.ipr
-
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
