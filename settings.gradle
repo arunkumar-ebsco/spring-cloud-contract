@@ -1,4 +1,2 @@
 rootProject.name = 'spring-cloud-contracts'
-include 'store-service'
-include 'merchant-service'
-
+include 'store-service', 'merchant-service'
