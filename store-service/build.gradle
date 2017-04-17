@@ -33,3 +33,9 @@ dependencyManagement {
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:Dalston.RELEASE"
 	}
 }
+
+contracts {
+	packageWithBaseClasses = 'com.xala3pa.stock.contracts'
+//	A hack to get around using rootDir in multi-project build
+	contractsDslDir = file("${project.projectDir}/src/test/resources/contracts/")
+}

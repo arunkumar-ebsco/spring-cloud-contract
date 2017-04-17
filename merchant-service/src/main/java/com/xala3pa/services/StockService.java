@@ -15,7 +15,6 @@ public class StockService {
     }
 
     public Stock checkAvailability(Item item) {
-
-        return new Stock(item.getItemId(),10);
+        return stockGateway.getStockFor(item);
     }
 }
