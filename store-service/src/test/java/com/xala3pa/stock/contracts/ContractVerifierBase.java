@@ -1,4 +1,4 @@
-package com.xala3pa.stock;
+package com.xala3pa.stock.contracts;
 
 import com.jayway.restassured.module.mockmvc.RestAssuredMockMvc;
 import com.xala3pa.StoreServiceApplication;

@@ -5,7 +5,7 @@ import org.springframework.cloud.contract.spec.Contract
     Contract.make {
         request {
             method 'GET'
-            url value(consumer(regex('/itemId/[0-9]{5}')))
+            url value(consumer('/itemId/100011'))
         }
         response {
             status 200
