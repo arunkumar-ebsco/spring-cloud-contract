@@ -5,6 +5,9 @@ public class Stock {
     private Integer itemId;
     private Integer amount;
 
+    public Stock() {
+    }
+
     public Stock(Integer itemId, Integer amount) {
         this.itemId = itemId;
         this.amount = amount;
