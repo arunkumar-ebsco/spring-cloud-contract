@@ -21,7 +21,7 @@ public class StockTest {
 
     @Test
     public void should_check_the_availability_for_an_item_by_id() throws Exception {
-        Item kindle = new Item(100011, "Kindle", 100);
+        Item kindle = new Item(100011, "Kindle");
 
         Stock stock = stockService.checkAvailability(kindle);
 
